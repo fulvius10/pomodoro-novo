@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  /* background-color: rgb(209, 231, 209); */
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

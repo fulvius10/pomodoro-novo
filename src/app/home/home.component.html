@@ -1,0 +1,11 @@
+<div class="row row-cols-md-1 row-cols-md-3 row-cols-1 text-center justify-content-center px-xl-6 aos-init aos-animate list" data-aos="fade-up">
+  <div *ngFor="let obj of cursos">
+          <button class="btn btn-outline-success" [routerLink]="['/detalhes', obj.id]">{{obj.nome}}</button>
+            <div class="card-body">
+        </div>
+    </div>
+</div>
+
+
+
+
